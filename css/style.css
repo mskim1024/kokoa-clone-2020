@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
+
+/* Components */
+@import "./components/status-bar.css";
+
+/* Screens */
+@import "./screen/login.css";
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -62,6 +67,6 @@ body {
 #login-form a {
     text-align: center;
     text-decoration: none;
-    color:inherit;
+    color: inherit;
     font-size: 13px;
 }
