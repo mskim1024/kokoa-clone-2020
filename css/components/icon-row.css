@@ -1,0 +1,30 @@
+.icon-row {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 두 번째 줄 아이콘 추가를 위해 추가한 코드*/
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: color 0.3s ease-in-out;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-row__icon i {
+    font-size: 35px;
+}
+
+.icon-row__icon span {
+    margin-top: 18px;
+}
+
+.icon-row__icon:hover {
+    cursor: pointer;
+    color: black;
+}

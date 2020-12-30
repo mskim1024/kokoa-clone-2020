@@ -10,6 +10,21 @@
     font-weight: 600;
 }
 
+.badge__h6 {
+    display: flex;
+    align-items: center;
+}
+
+.badge__h6 span {
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 7;
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
 .badge__ellipsis {
     background-color: tomato;
     display: flex;
